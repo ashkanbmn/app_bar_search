@@ -2,3 +2,4 @@
 *.cpp linguist-detectable=false
 *.c linguist-detectable=false
 *.swift linguist-detectable=false
+*.txt linguist-detectable=false
