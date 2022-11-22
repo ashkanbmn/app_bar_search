@@ -1,7 +1,7 @@
 name: app_bar_search
 description: A new Flutter project.
 version: 1.0.0
-homepage:
+homepage: https://github.com/ashkanbmn/app_bar_search
 
 environment:
   sdk: '>=2.18.4 <3.0.0'
