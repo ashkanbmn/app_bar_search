@@ -1,3 +1,4 @@
-## 0.0.1
+## [1.0.0]
+first version
 
 * TODO: Describe initial release.
