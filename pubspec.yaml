@@ -1,5 +1,5 @@
 name: app_bar_search
-description: Flutter AppBar with search and title that can be customize by user.
+description: A flutter package to give you a customize appbar with search .
 version: 1.0.1
 homepage: https://github.com/ashkanbmn/app_bar_search
 
