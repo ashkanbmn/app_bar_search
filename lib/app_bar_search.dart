@@ -36,7 +36,7 @@ class _AppBarSearchState extends State<AppBarSearch> {
               visible: !visible,
               child: Center(
                 child: SizedBox(
-                  width: MediaQuery.of(context).size.width * .9,
+                  width: MediaQuery.of(context).size.width * .8,
                   child: Text(
                     widget.title,
                     textAlign: TextAlign.center,
@@ -49,7 +49,7 @@ class _AppBarSearchState extends State<AppBarSearch> {
             Visibility(
               visible: visible,
               child: SizedBox(
-                width: MediaQuery.of(context).size.width * .9,
+                width: MediaQuery.of(context).size.width * .8,
                 child: TextField(
                   focusNode: focusNode,
                   decoration: InputDecoration(

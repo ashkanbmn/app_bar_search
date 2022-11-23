@@ -1,4 +1,4 @@
-## [1.0.0]
-first version
+## [1.0.1]
+second version
 
-* TODO: Describe initial release.
+* TODO: improve flexibility .

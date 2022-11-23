@@ -1,6 +1,6 @@
 # app_bar_search
 
-A new Flutter project.
+A flutter package to give you a customize appbar with search .
 
 ## Getting Started
 
