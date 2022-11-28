@@ -5,16 +5,16 @@ class AppBarSearch extends StatefulWidget {
       {Key? key,
       required this.title,
       required this.searchTitle,
-      this.hintColor,
-      this.textColor,
-      this.iconColor,
+      this.searchHintColor,
+      this.titleColor,
+      this.iconsColor,
       this.borderColor})
       : super(key: key);
   final String title;
   final String searchTitle;
-  final Color? textColor;
-  final Color? hintColor;
-  final Color? iconColor;
+  final Color? titleColor;
+  final Color? searchHintColor;
+  final Color? iconsColor;
   final Color? borderColor;
 
   @override
@@ -41,7 +41,7 @@ class _AppBarSearchState extends State<AppBarSearch> {
                     widget.title,
                     textAlign: TextAlign.center,
                     style: TextStyle(
-                        fontSize: 20, color: widget.textColor ?? Colors.white),
+                        fontSize: 20, color: widget.titleColor ?? Colors.white),
                   ),
                 ),
               ),
@@ -55,7 +55,7 @@ class _AppBarSearchState extends State<AppBarSearch> {
                   decoration: InputDecoration(
                     hintText: widget.searchTitle,
                     hintStyle:
-                        TextStyle(color: widget.hintColor ?? Colors.white),
+                        TextStyle(color: widget.searchHintColor ?? Colors.white),
                     enabledBorder: UnderlineInputBorder(
                       borderSide: BorderSide(
                           style: BorderStyle.solid,
@@ -70,7 +70,7 @@ class _AppBarSearchState extends State<AppBarSearch> {
         IconButton(
           icon: Icon(
             visible == false ? Icons.search : Icons.clear,
-            color: widget.iconColor ?? Colors.white,
+            color: widget.iconsColor ?? Colors.white,
           ),
           onPressed: () {
             setState(() {
