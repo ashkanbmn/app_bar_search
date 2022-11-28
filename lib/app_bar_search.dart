@@ -4,14 +4,14 @@ class AppBarSearch extends StatefulWidget {
   const AppBarSearch(
       {Key? key,
       required this.title,
-      required this.searchTitle,
+      required this.searchHint,
       this.searchHintColor,
       this.titleColor,
       this.iconsColor,
       this.borderColor})
       : super(key: key);
   final String title;
-  final String searchTitle;
+  final String searchHint;
   final Color? titleColor;
   final Color? searchHintColor;
   final Color? iconsColor;
@@ -53,7 +53,7 @@ class _AppBarSearchState extends State<AppBarSearch> {
                 child: TextField(
                   focusNode: focusNode,
                   decoration: InputDecoration(
-                    hintText: widget.searchTitle,
+                    hintText: widget.searchHint,
                     hintStyle:
                         TextStyle(color: widget.searchHintColor ?? Colors.white),
                     enabledBorder: UnderlineInputBorder(

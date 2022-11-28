@@ -46,7 +46,7 @@ class _MyHomePageState extends State<MyHomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        actions: const [AppBarSearch(title: "Home", searchTitle: "Search")],
+        actions: const [AppBarSearch(title: "Home", searchHint: "Search")],
       ),
       body: Center(
         child: Column(

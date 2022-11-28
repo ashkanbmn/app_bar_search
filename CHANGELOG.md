@@ -1,4 +1,4 @@
-## [1.0.1]
-second version
+## [1.0.2]
+Third Version
 
-* TODO: improve flexibility .
+* TODO: change parameter names .
