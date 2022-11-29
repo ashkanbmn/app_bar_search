@@ -8,7 +8,7 @@ class AppBarSearch extends StatefulWidget {
       this.searchHintColor,
       this.titleColor,
       this.iconsColor,
-      this.borderColor})
+      this.borderColor, this.textAlign})
       : super(key: key);
   final String title;
   final String searchHint;
@@ -16,6 +16,7 @@ class AppBarSearch extends StatefulWidget {
   final Color? searchHintColor;
   final Color? iconsColor;
   final Color? borderColor;
+  final TextAlign? textAlign;
 
   @override
   State<AppBarSearch> createState() => _AppBarSearchState();
@@ -39,7 +40,7 @@ class _AppBarSearchState extends State<AppBarSearch> {
                   width: MediaQuery.of(context).size.width * .8,
                   child: Text(
                     widget.title,
-                    textAlign: TextAlign.center,
+                    textAlign: widget.textAlign ?? TextAlign.start,
                     style: TextStyle(
                         fontSize: 20, color: widget.titleColor ?? Colors.white),
                   ),
