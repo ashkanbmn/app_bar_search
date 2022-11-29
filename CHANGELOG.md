@@ -1,4 +1,4 @@
-## [1.0.2]
+## [1.0.3]
 Third Version
 
-* TODO: change parameter names .
+* TODO: add title text align .
