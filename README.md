@@ -9,9 +9,10 @@ This project is a starting point for a Flutter
 a specialized package that includes platform-specific implementation code for
 Android and/or iOS.
 
-![app__bar_search1](https://user-images.githubusercontent.com/74037732/204530230-67c3f580-f5af-45a5-9d91-a9e194e36bca.png)
+![app__bar_search1](https://user-images.githubusercontent.com/74037732/204534112-d13bbd24-0886-4b09-a1ac-b2db7081ddad.png)
 
-![app__bar_search2](https://user-images.githubusercontent.com/74037732/204530336-d439b77a-68df-4252-9df3-cdf6050339e6.png)
+
+![app__bar_search2](https://user-images.githubusercontent.com/74037732/204534176-5df3dc4c-725b-4c85-8762-9dea92f7b6f6.png)
 
 
 For help getting started with Flutter development, view the
